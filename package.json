@@ -1,6 +1,11 @@
 {
   "name": "familytree",
   "private": true,
+  "dependencies": {
+    "bower": "^1.4.1",
+    "express": "^4.12.3",
+    "grunt": "^0.4.5"
+  },
   "devDependencies": {
     "compass": "^0.1.1",
     "grunt": "^0.4.5",
@@ -30,7 +35,6 @@
     "jshint-stylish": "^1.0.0",
     "karma-jasmine": "*",
     "karma-phantomjs-launcher": "*",
-    "sass": "^0.5.0",
     "time-grunt": "^1.0.0"
   },
   "engines": {
@@ -38,5 +42,10 @@
   },
   "scripts": {
     "test": "grunt test"
-  }
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
