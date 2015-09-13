@@ -1,7 +1,7 @@
 var express = require( 'express' );
 var server = express();
 
-server.use( express.static( __dirname + '/app' ) );
+server.use( express.static( __dirname + '/dist' ) );
 
 var port = process.env.PORT;
 // var port = 5000;
